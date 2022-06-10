@@ -1,6 +1,6 @@
 [package]
 name = "nshare"
-version = "0.9.0"
+version = "0.10.0"
 authors = ["Geordon Worley <vadixidav@gmail.com>"]
 edition = "2021"
 description = "Conversion between n-dimensional types in different Rust crates"
@@ -17,7 +17,7 @@ nalgebra_std = ["nalgebra/std"]
 
 [dependencies]
 ndarray = { version = "0.15.4", default-features = false, optional = true }
-nalgebra = { version = "0.30.1", default-features = false, optional = true }
+nalgebra = { version = "0.31.0", default-features = false, optional = true }
 image = { version = "0.24.0", default-features = false, optional = true }
 
 [package.metadata.docs.rs]
